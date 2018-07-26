@@ -1,1 +1,1 @@
-[ -d /home/scrapbook/tutorial/.git ] && echo "done"
+[ -d /home/scrapbook/tutorial/package.json ] && echo "done"
