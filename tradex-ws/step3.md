@@ -1,8 +1,8 @@
 ##### Connect to SocketCluster Server (Tradex-WS)
 
-To connect to SocketCluster Server, we use method <pre>create</pre> (or <pre>connect</pre> for socket-client version < v10.0.0)
+To connect to SocketCluster Server, we use method **create** (or **connect** for socket-client version < v10.0.0)
 
-<pre class="file" data-filename="client.js" data-target="replace">
+<pre class="file">
 var socketCluster = require('socketcluster-client');
 
 var options = {
@@ -19,9 +19,11 @@ socket.on('connect', function () {
 
 ##### Connection Options
 Options is optional,it's infomation contains port, host, security...
-See all available options : https://socketcluster.io/#!/docs/api-socketcluster-client
 
-<pre>
+See all available options :
+https://socketcluster.io/#!/docs/api-socketcluster-client
+
+<pre  class="file">
 var options = {
   path: '/socketcluster/',
   port: 8000,
@@ -50,7 +52,7 @@ var options = {
 </pre>
 
 To connect to Tradex-WS, we use below options:
-<pre>
+<pre  class="file">
 var options = {
   port: 8000,
   hostname:'52.77.225.82'
