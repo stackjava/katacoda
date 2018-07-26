@@ -9,7 +9,7 @@ The socketcluster-client script is called socketcluster.js (located in the main 
 
 `<script type="text/javascript" src="/socketcluster.js"></script>`
 
-Note that the src attribute may be different depending on how you setup your HTTP server
+- Note that the src attribute may be different depending on how you setup your HTTP server
 
 **With node.js:**
 `var socketCluster = require('socketcluster-client');`
