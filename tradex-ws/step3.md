@@ -2,6 +2,7 @@ Subscribe channel from Tradex-WS
 In this tutorial, I will create node.js client:
 
 create file _client.js_
+
 `touch client.js`{{execute}}
 
 Copy following content to _client.js_:
@@ -33,7 +34,7 @@ console.log('bidOfferChannel: ', data);
 </pre>
 
 
-*options*: options when connect to server (port, host, security...)
+**options**: options when connect to server (port, host, security...)
 (See more in: https://socketcluster.io/#!/docs/api-socketcluster-client)
 
 ###### Run client.js with node.js
