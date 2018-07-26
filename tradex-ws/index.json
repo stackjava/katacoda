@@ -4,17 +4,17 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Create Node.js Project",
         "text": "step1.md",
         "verify": "step1-verify.sh",
         "answer": "step1-answer.md"
       },
       {
-        "title": "Step 2",
+        "title": "Install Socket Client",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Subscribe Channel from Tradex-WS",
         "text": "step3.md"
       }
     ],
