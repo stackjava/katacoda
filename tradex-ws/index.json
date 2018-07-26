@@ -15,8 +15,16 @@
         "verify": "step2-verify.sh"
       },
       {
-        "title": "Subscribe Channel from Tradex-WS",
+        "title": "Connect to Tradex-WS",
         "text": "step3.md"
+      },
+      {
+        "title": "Subscribe Channel from Tradex-WS",
+        "text": "step4.md"
+      },
+      {
+        "title": "Demo",
+        "text": "step5.md"
       }
     ],
     "intro": {
