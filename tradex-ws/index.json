@@ -10,7 +10,7 @@
         "answer": "step1-answer.md"
       },
       {
-        "title": "Install Socket Client",
+        "title": "Install SocketCluster Client",
         "text": "step2.md",
         "verify": "step2-verify.sh"
       },
