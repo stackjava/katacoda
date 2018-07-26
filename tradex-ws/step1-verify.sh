@@ -1,1 +1,1 @@
-[ -d /home/scrapbook/tutorial/package.json ] && echo "done"
+[ -e /home/scrapbook/tutorial/package.json ] && echo "done"
