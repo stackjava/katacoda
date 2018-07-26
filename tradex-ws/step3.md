@@ -3,7 +3,7 @@ In this tutorial, I will create node.js client:
 
 create file client.js with following content:
 
-<pre>
+<pre class="file" data-filename="client.js" data-target="replace">
 var socketCluster = require('socketcluster-client');
 
 var options = {
@@ -27,8 +27,8 @@ console.error('Failed to subscribe to the bidOfferChannel channel due to error: 
 bidOfferChannel.watch(function (data) {
 console.log('bidOfferChannel: ', data);
 });
-  
 </pre>
+
 
 options: options when connect to server (port, host, security...)
 (See more in: https://socketcluster.io/#!/docs/api-socketcluster-client)
