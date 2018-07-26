@@ -1,7 +1,10 @@
 Subscribe channel from Tradex-WS
 In this tutorial, I will create node.js client:
 
-create file _client.js_ with following content:
+create file _client.js_
+`touch client.js`{{execute}}
+
+Copy following content to _client.js_:
 
 <pre class="file" data-filename="client.js" data-target="replace">
 var socketCluster = require('socketcluster-client');
